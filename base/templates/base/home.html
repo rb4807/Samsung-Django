@@ -1,0 +1,696 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+            <title>Home</title>
+        </head>
+        <style>
+            html{
+            scroll-behavior: smooth;
+            width: 100%;
+            }
+            body {
+                font-family: 'PT Sans', sans-serif;
+              }
+        </style>
+    <body>
+        <div class="flex flex-row flex-wrap justify-evenly text-sm "> 
+            <div class>
+                <img class="w-[5rem] mt-[45%] " src="{% static 'images/samsung logo.png' %}">
+            </div>   
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Shop</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Mobile</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1  text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">TV&AV</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Home Appliances</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Laptop&Monitors</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Display</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Accessories</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">SmartThings</button>
+                </a>
+            </div>
+            <div class="mt-[2%]" >
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">Support</button>
+                </a>
+            </div>
+            <div class="mt-[2%]">
+                <a href =""> 
+                    <button class=" px-2 py-1 text-black font-semibold rounded-full border  hover:text-white hover:bg-black hover:border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">For Business</button>
+                </a>
+            </div>
+            <div class="mt-[2.3%]">
+                <a href ="" target="blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+                </a>
+            </div>
+            <div class="mt-[2.3%]">
+                <a href ="" target="blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="19" r="2" />
+                        <circle cx="17" cy="19" r="2" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                </a>
+            </div>
+            <div class="mt-[2.3%]">
+                <a href ="" target="blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="7" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />       
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+<!--video-->
+        <div class="bg-video" >
+            <video class="bg-video__content mt-[3%] mb-[2%]" autoplay muted loop width="1500" height="200">
+                <source src="{% static 'images/s23 home.mp4' %}" type="video/mp4">
+            </video>
+        </div>
+
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class="font-dmserif text-3xl font-bold text-white ml-[7%]">Galaxy S23 Series</h1>
+                <p class="font-dmserif text-xl  text-white ml-[7%]">Tune in to Samsung live on Mar 27,12pm</p>
+                <p class="font-dmserif text-xl  text-white ml-[7%]">Avail benefits worth at 22499* </p>
+            </div>
+            <div class="absolute inset-0 flex   transition-all duration-500">
+                <button class="mt-[27%] ml-[10%]    font-com text-sm capitalize text-white underline underline-offset-2 ">learn more</button>
+            </div>
+            <div class="mt-[36.5%] ml-[15.5%] absolute inset-0   transition-all duration-500">
+                <button class="rounded-full bg-white px-5 py-2 font-com text-sm capitalize text-black shadow shadow-black/60">Notify Me</button>
+            </div> 
+        </div>
+<!--This Week's Highlights-->
+        <div class="justify-center flex flex-row items-center ">
+            <div class =" justify-center items-center ">
+                <h1 class="text-4xl font-semibold">This Week's Highlights</h1>
+            </div>
+        </div>
+<!--images-->
+        <div class="flex flex-row">
+            <div class>
+                <img class="w-[41rem]  ml-[2%] mt-[3%] rounded-xl " src="{% static 'images/A32.avif' %}">
+            </div>
+            <div class="grid gap-1 grid-cols-2 grid-rows-1">
+                <div class>
+                    <img class="w-[20rem]  ml-[10%] mt-[5%] rounded-xl " src="{% static 'images/F14.avif' %}">
+                </div>
+                <div class>
+                    <img class="w-[20rem]  ml-[15%] mt-[5%] rounded-xl " src="{% static 'images/S23.avif' %}">
+                </div>
+                <div>
+                    <img class="object right w-[20rem]  ml-[10%] rounded-xl " src="{% static 'images/4K tv.avif' %}">
+                </div>
+                <div>
+                    <img class="object right w-[20rem]  ml-[15%] rounded-xl " src="{% static 'images/SBS.avif' %}">
+                </div>
+            </div>
+        </div>
+      
+            
+        
+<!--des-->
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class="font-dmserif text-3xl font-bold text-black mt-[35%] ml-[10%]">Samsung Live presents <br>Galaxy A34|A54 5G</h1>
+                <p class="font-dmserif text-xl  text-black ml-[12%]">Tune in Mar 23,12pm</p>
+                <p class="font-dmserif text-xl  text-black ml-[10%]">Avail benefits worth at 9299* </p>
+            </div>
+            <div class="mt-[73%] mr-[60%] absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="rounded-full bg-neutral-900 px-8 py-2 font-com text-sm capitalize text-white shadow shadow-black/60">Pre-order now</button>
+            </div>        
+        </div>
+
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class="font-dmserif text-2xl font-bold text-white mt-[47%] ml-[53%]">Galaxy F14 5G<br>Launch 24th Mar,12pm</h1>
+                <p class="font-dmserif text-xl  text-white ml-[53%]">Segment only 5nm processor</p>
+            </div>
+            <div class="mt-[73.5%] ml-[36%] absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="rounded-full bg-white px-4 py-2 font-com text-sm capitalize text-black shadow shadow-white/60">Notify me</button>
+            </div>
+        </div>
+    
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class="font-dmserif text-2xl font-bold text-black mt-[45%] ml-[78%]">Galaxy S23|S23+<br>Starting at 3125*/month</h1>
+                <p class="font-dmserif text-l  text-black ml-[78%]">Incl.7000* off cashback & app voucher</p>
+            </div>
+            <div class="mt-[78.7%] ml-[70%] absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="rounded-full bg-neutral-900 px-4 py-1 font-com text-sm capitalize text-white shadow shadow-black/60">order now</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class="font-dmserif text-2xl font-bold text-black mt-[70%] ml-[53%]">Crystal 4K UHD AUE65<br>Starting at 31990*</h1>
+                <p class="font-dmserif text-l  text-black ml-[53%]">Get up to 9800* off with exchange benefit </p>
+            </div>
+            <div class="mt-[103%] ml-[25%] absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="rounded-full bg-neutral-900 px-8 py-1 font-com text-sm capitalize text-white shadow shadow-black/60">Buy now</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class="font-dmserif text-2xl font-bold text-black mt-[70%] ml-[79%]">New SBS refrigerator<br>Starting at 85900*</h1>
+                <p class="font-dmserif text-l  text-black ml-[79%]">Incl. 10000* off cashback & app voucher </p>
+            </div>
+            <div class="mt-[104%] ml-[73%] absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="rounded-full bg-neutral-900 px-8 py-1 font-com text-sm capitalize text-white shadow shadow-black/60">Buy now</button>
+            </div>
+        </div>
+<!--mobile&computer-->
+        <div>
+            <img class="object right w-[90rem] h-[40rem]  mt-[3%] ml-[2%]  " src="{% static 'images/s23 ultra.avif' %}">
+        </div>
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-4xl font-bold text-white mt-[90%] ml-[38%]">Mobile & Computing</h1>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <h1 class=" text-5xl font-bold text-white mt-[145%] ">Galaxy S23 Ultra</h1>
+                <p class="font-dmserif text-l  text-white mt-[1%]">Get up to 18000* cashback & upgrade bonus</p>
+                <button class="mt-[1%] rounded-full bg-white px-8 py-2 font-com text-sm capitalize text-black shadow shadow-black/60">Buy now</button>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[153%] ml-[15%]    font-com text-sm capitalize text-white underline underline-offset-2 ">learn more</button>
+            </div> 
+        </div>
+
+        <div>
+            <img class="object right w-[90rem] h-[45rem]   ml-[2%]  " src="{% static 'images/neo qled 8k.avif' %}">
+        </div>
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-4xl font-bold text-white mt-[140%] ml-[46%]">TV & AV</h1>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <h1 class=" text-5xl font-bold text-white mt-[198%] ">Neo QLED 8K</h1>
+                <p class=" text-l  text-white mt-[1%]">Starting 14909.15*/month</p>
+                <p class=" text-l  text-white mt-[0.5] ">Get up to 9800* off with exchange benefit</p>
+                <button class="rounded-full bg-white px-8 py-2 font-com text-sm capitalize text-black shadow shadow-black/60">Buy now</button>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[207%] ml-[15%]    font-com text-sm capitalize text-white underline underline-offset-2 ">learn more</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="object right w-[90rem] h-[45rem]   ml-[2%]  " src="{% static 'images/home appliances.webp' %}">
+        </div>
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-4xl font-bold text-white mt-[195%] ml-[40%]">Home Appliances</h1>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <h1 class=" text-5xl font-bold text-white mt-[250%] ">Convertible 5in1 AC</h1>
+                <p class=" text-l  text-white mt-[1%]">Starting 33490*</p>
+                <p class=" text-l  text-white mt-[0.5] ">Incl. 2250* off with app voucher</p>
+                <button class="rounded-full bg-white px-8 py-2 font-com text-sm capitalize text-black shadow shadow-black/60">Buy now</button>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[259%] ml-[15%]    font-com text-sm capitalize text-white underline underline-offset-2 ">learn more</button>
+            </div>
+        </div>
+<!--Explore-->
+        <div class="justify-center flex flex-row items-center ">
+            <div class =" justify-center items-center mt-[3%] ">
+                <h1 class="text-5xl font-semibold">Explore #DoWhatYouCant</h1>
+            </div>
+        </div>
+        <div class>
+            <img class="w-[41rem]  ml-[2%] mt-[3%] rounded-xl " src="{% static 'images/Explore.webp' %}">
+        </div>
+
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-2xl font-bold text-black mt-[262%] ml-[60%]">01 Tips for Navigating Big Life Changes.</h1>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[281%] ml-[30%]    font-com text-sm capitalize text-black underline underline-offset-2 ">learn more</button>
+            </div> 
+        </div>
+            
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-2xl font-bold text-black mt-[269%] ml-[60%]">02 Feel Free to Freestyle.</h1>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[287%] ml-[30%]    font-com text-sm capitalize text-black underline underline-offset-2 ">learn more</button>
+            </div> 
+        </div> 
+
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-2xl font-bold text-black mt-[276%] ml-[60%]">03 3 Hosting Tips to Alleviate Holiday Stress.</h1>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[296%] ml-[30%]    font-com text-sm capitalize text-black underline underline-offset-2 ">learn more</button>
+            </div> 
+        </div> 
+
+        <div>   
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-2xl font-bold text-black mt-[287%] ml-[60%]">04 Meet G·NUSMAS, the curious extraterrestrial.</h1>
+            </div>
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[306%] ml-[30%]    font-com text-sm capitalize text-black underline underline-offset-2 ">learn more</button>
+            </div> 
+        </div> 
+    
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <h1 class=" text-2xl font-bold text-black mt-[299%] ml-[60%]">05 India's Festive Season Purchase Latest Smartphones.</h1>
+            </div> 
+            </div>
+            <div class="absolute inset-0 flex  flex-col items-center  transition-all duration-500">
+                <button class="mt-[318%] ml-[30%]    font-com text-sm capitalize text-black underline underline-offset-2 ">learn more</button>
+            </div> 
+        </div> 
+<!--Looking for something else?-->
+        <div class="justify-center flex flex-row items-center ">
+            <div class =" justify-center items-center mt-[3%] ">
+                <h1 class="text-4xl font-semibold">Looking for something else?</h1>
+            </div>
+        </div>
+<!--Search bar-->          
+        <form>   
+            <div class="ml-[38%] mt-[2%]">
+                <input type="search" id=" default-search" class="block w-80 p-4 pl-10 text-sm text-black border border-black rounded-full bg-white focus:ring-blue-500 focus:border-black dark:bg-white dark:border-black dark:placeholder-black dark:text-black dark:focus:ring-black dark:focus:border-black" placeholder="S23,Z Fold..." required>
+                <button type="submit" class="ml-[3%] text-black absolute right-2.5 bottom-2.5 bg-black focus:outline-none focus:ring-black font-medium rounded-lg text-sm px-4 py-2 dark:bg-black dark:hover:bg-black dark:focus:ring-black">Search</button>
+            </div>
+        </form>
+<!--Footer-->
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <p class="font-dmserif text-xs  text-black ml-[10%] mt-[325%]">* 5G Devices are 5G ready, connectivity dependent on network availability.
+
+                    <br>* Images shown here are for representational purpose only, actual may vary. All features, specifications and prices are subject to change without prior notice. Model<br>  availability may vary from location to location.
+                    
+                    <br>* Image simulated. S Pen Fold Edition sold separately and is only compatible with Galaxy Z Fold4 and Galaxy Z Fold3.
+                    
+                    <br>* Watch screen image simulated for illustrative purpose. Availability of colours, sizes, models, and watch bands may vary by country or carrier.
+                    
+                    <br>* Image simulated. Available colours of Galaxy Buds2 Pro may vary by country or carrier.
+                    
+                    <br># T&C Apply. Cashback at the sole discretion of the issuer / NBFC.
+                    
+                    <br>** Product launch dates vary from country to country. Some products may be launched earlier in few countries.
+                    
+                    <br>* Offer valid on select models only.
+                </p>
+            </div>
+        </div>
+<!--table--> 
+        <div class="flex flex-row flex-wrap">
+            <div class="mt-[15%] ml-[3%] mb-[2%]">
+                <table class="border border-solid border-l-0 width='20%' border border-spacing-5 border border-slate-500">
+                    <thead>
+                        <tr>
+                            <th>Product & Service</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Smartphones</td>
+                        </tr>
+
+                        <tr>
+                            <td>Tablets</td>
+                        </tr>
+
+                        <tr>
+                            <td>Audio System</td>
+                        </tr>
+
+                        <tr>
+                            <td>Watches</td>
+                        </tr>
+
+                        <tr>
+                            <td>Smart Switch</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mobile Accessories</td>
+                        </tr>
+
+                        <tr>
+                            <td>TVs</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sound Device</td>
+                        </tr>
+
+                        <tr>
+                            <td>Refrigerator</td>
+                        </tr>
+
+                        <tr>
+                            <td>Laundry</td>
+                        </tr>
+
+                        <tr>
+                            <td>Air Solutions</td>
+                        </tr>
+
+                        <tr>
+                            <td>Cooking Appliances</td>
+                        </tr>
+
+                        <tr>
+                            <td>Monitors</td>
+                        </tr>
+
+                        <tr>
+                            <td>Memory Storage</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>       
+            <div class="mt-[15%] mb-[2%]">
+                <table class="border border-solid border-l-0 border-spacing-2 border border-slate-500 ...">
+                    <thead>
+                        <tr>
+                            <th>Shop</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cancellation & Return Policy</td>
+                        </tr>
+                        <tr>
+                            <td>Track Order Status</td>
+                        </tr>
+                        <tr>
+                            <td>Welcome Voucher</td>
+                        </tr>
+                        <tr>
+                            <td>Samsung Referral Advantage</td>
+                        </tr>
+                        <tr>
+                            <td>Samsung Student Advantage</td>
+                        </tr>
+                        <tr>
+                            <td>Defence Purchase Program</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Employee Program</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Bulk Purchase</td>
+                        </tr>
+                        <tr>
+                            <td>Samsung Experience Store</td>
+                        </tr>
+                        <tr>
+                            <td>Store Locator</td>
+                        </tr>
+                        <tr>
+                            <td>Smart Club</td>
+                        </tr>
+                        <tr>
+                            <td>FAOS</td>
+                        </tr>
+                        <tr>
+                            <td>Terms of Use</td>
+                        </tr>
+                        <tr>
+                            <td>Grievance Redressal</td>
+                        </tr>
+                        <tr>
+                            <td>Explore</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-[15%] mb-[2%]">
+                <table class="border border-solid border-l-0 border-spacing-2 border border-slate-500 ...">
+                    <thead>
+                        <tr>
+                            <th>Support</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>WhatsApp Us</td>
+                        </tr>
+                        <tr>
+                            <td>Sign Language</td>
+                        </tr>
+                        <tr>
+                            <td>Email Us</td>
+                        </tr>
+                        <tr>
+                            <td>Call Us</td>
+                        </tr>
+                        <tr>
+                            <td>Email the CEO</td>
+                        </tr>
+                        <tr>
+                            <td>Community</td>
+                        </tr>
+                        <tr>
+                            <td>Product Registration</td>
+                        </tr>
+                        <tr>
+                            <td>Service Centre</td>
+                        </tr>
+                        <tr>
+                            <td>Give Feedback</td>
+                        </tr>
+                        <tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-[15%] mb-[2%]">
+                <table class="border border-solid border-l-0 border-spacing-2 border border-slate-500 ...">
+                    <thead>
+                        <tr>
+                            <th>Account & Community</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>My Page</td>
+                        </tr>
+                        <tr>
+                            <td>My Products</td>
+                        </tr>
+                        <tr>
+                            <td>Orders</td>
+                        </tr>
+                        <tr>
+                            <td>Wishlist</td>
+                        </tr>
+                        <tr>
+                            <td>Vouchers</td>
+                        </tr>
+                        <tr>
+                            <td>My Referrals</td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                        </tr>
+                        <tr>
+                            <td>Community</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-[15%] mb-[2%]">
+                <table class="border border-solid border-l-0 border-spacing-2 border border-slate-500 ...">
+                    <thead>
+                        <tr>
+                            <th>Sustainability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Environment</td>
+                        </tr>
+                        <tr>
+                            <td>Security & Privacy</td>
+                        </tr>
+                        <tr>
+                            <td>Accessibility</td>
+                        </tr>
+                        <tr>
+                            <td>Diversity Equity Inclusion</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Citizenship</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Sustainability</td>
+                        </tr>
+                    <tr>
+                        <th>About Us</th>
+                    </tr>
+                        <tr>
+                            <td>Company info</td>
+                        </tr>
+                        <tr>
+                            <td>Business Area</td>
+                        </tr>
+                        <tr>
+                            <td>Brand identity</td>
+                        </tr>
+                        <tr>
+                            <td>Careers</td>
+                        </tr>
+                        <tr>
+                            <td>Investor Relations</td>
+                        </tr>
+                        <tr>
+                            <td>Newsroom</td>
+                        </tr>
+                        <tr>
+                            <td>Ethics</td>
+                        </tr>
+                        <tr>
+                            <td>Samsung Design</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div> 
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <p class="font-dmserif text-xs  text-black ml-[3%] mt-[375%]">
+                    Copyright ⓒ 1995-2023 SAMSUNG All Rights reserved.
+                </p>
+            </div>
+        </div>  
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <p class="font-dmserif text-xs  text-black ml-[3%] mt-[378%]">
+                    Please dispose of e-waste and plastic waste responsibly.
+                    <br>For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details.
+                </p>
+            </div>
+        </div>  
+        <div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col   px-9 ">
+                <p class="font-dmserif text-xs  text-black ml-[3%] mt-[383%]">
+                    Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001
+                    <br>Corporate Identification Number (CIN): U31900DL1995PTC071387
+                </p>
+            </div>
+        </div> 
+        
+        <div class="flex flex-row flex-wrap">
+            <div class="absolute inset-0   transition-all duration-500">
+                <button class="mt-[397%] ml-[5.5%]    font-com text-xs capitalize text-black ">India/English</button>
+            </div>
+            <div class="absolute inset-0   transition-all duration-500">
+                <button class="mt-[397%] ml-[12.5%]    font-com text-xs capitalize text-black ">Privacy</button>
+            </div>
+            <div class="absolute inset-0   transition-all duration-500">
+                <button class="mt-[397%] ml-[17.5%]    font-com text-xs capitalize text-black ">Legal</button>
+            </div>
+            <div class="absolute inset-0   transition-all duration-500">
+                <button class="mt-[397%] ml-[21.5%]    font-com text-xs capitalize text-black ">CSR Privacy</button>
+            </div>
+            <div class="absolute inset-0   transition-all duration-500">
+                <button class="mt-[397%] ml-[28.5%]    font-com text-xs capitalize text-black ">Sitemap</button>
+            </div>
+            <p class=" text-xs  text-black ml-[75%] mt-[15%]">
+                Stay in the loop?
+            </p>
+            <div class="mt-[14.7%] ml-[2%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+            </div>
+            <div class="mt-[14.7%] ml-[1%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                </svg>
+            </div>
+            <div class="mt-[14.7%] ml-[1%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg>
+            </div>
+            <div class="mt-[14.7%] ml-[1%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="3" y="5" width="18" height="14" rx="4" />
+                    <path d="M10 9l5 3l-5 3z" />
+                  </svg>
+            </div>
+            <div class="mt-[14.7%] ml-[1%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                    <line x1="8" y1="11" x2="8" y2="16" />
+                    <line x1="8" y1="8" x2="8" y2="8.01" />
+                    <line x1="12" y1="16" x2="12" y2="11" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                </svg>
+            </div>
+            <div class="mt-[14.7%] ml-[1%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                    <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                </svg>
+            </div>
+        </div> 
+    </body>
+</html> 
